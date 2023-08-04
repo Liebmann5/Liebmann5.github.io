@@ -1,0 +1,97 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background-color: #f5f6f7;
+  font-family: Helvetica;
+  color: #1b1b32;
+  /*How you get things to the edge L & R*/
+  margin: 0;
+}
+
+#navbar {
+  width: 20%;
+  height: 100%;
+  background-color: #000070;
+  text-decoration: none;
+  /*Setting this to 'fixed' brought everything up!!!*/
+  position: fixed;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+h1 {
+  /*margin-top DIDN'T WORK but this padding did*/
+  /*It moved ONLY the material on the right down some!!!*/
+  padding-top: 3%;
+  text-align: center;
+}
+
+#navtitle {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  padding-bottom: 20px;
+  overflow-wrap: break-word;
+} 
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+ul > li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -25px;
+  white-space: initial;
+  overflow-wrap: break-word;
+  padding-bottom: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 110%;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  position: sticky;
+  /*This removed the link's underline*/
+  text-decoration: none;
+  font-size: 22;
+  /* flex-wrap: wrap; */
+}
+
+a:visited {
+  color: lightgreen;
+}
+
+main > header {
+  width: 100%;
+}
+
+#main-doc {
+  margin-left: 23%;
+  margin-top: 0%;
+}
+
+code {
+  /* The "pre" element organized the code */
+  color: black;
+  font-size: 16px;
+  /* position: relative;
+    left: px; */
+
+  display: table;
+  background-color: #bdbdbd;
+  /* Defualt value; but here just as notes*/
+  opacity: 1;
+  border-radius: 20px;
+  margin: 0px 100px 0px;
+  width: 70%;
+}
