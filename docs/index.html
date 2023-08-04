@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>How to learn Programming</title>
+  </head>
+  <body>
+      <!-- NAVIGATION BAR -->
+      <nav id="navbar">
+        <header id="navtitle">WoW FCC</header>
+          <ul>
+            <li><a class="nav-link" href="#Green_Tea_Press">Green Tea Press</a></li>
+            <li><a class="nav-link" href="#Introduction_to_Programming">Introduction to Programming</a></li>
+            <li><a class="nav-link" href="#Data_Structures_&_Algorithms">Data Structures & Algorithms</a></li>
+            <li><a class="nav-link" href="#FreeCodeCamp">FreeCodeCamp</a></li>
+            <li><a class="nav-link" href="#Choose_either_OS/Architecture/EmbeddedSystems">Choose either OS/Architecture/EmbeddedSystems</a></li>
+            <li><a class="nav-link" href="#Notes">Notes</a></li>
+          </ul>
+      </nav>
+    <main id="main-doc">
+      <h1>How to become a Software Engineer?</h1>
+      <section id="Green_Tea_Press" class="main-section">
+        <header><h2>Green Tea Press</h2></header>
+        <div>
+          <p>GreenTeaPress is a website that offers free CS educational books by Allen B. Downey. These books are tremendous because of the vocabulary used throughout it! Every topic/subject is explained so easily that anyone who picks the book up will be able to easily comprehend the concept.</p>
+          <p>Example: (pg. 20)</p>
+          <strong>Also, in mathematics, a statement of equality is true for all time. If a = b
+now, a is always equal to b. In Java, an assignment statement can make two
+variables equal, but they don't have to stay that way.</strong>
+          <pre>
+          <code>
+            int a = 5;
+            int b = a; // a and b are now equal
+            a = 3; // a and b are no longer equal
+          </code>
+          </pre>
+          <strong>The third line changes the value of a, but it does not change the value of b,
+so they are no longer equal.</strong>
+          <a href="https://greenteapress.com/wp/think-java-2e/">GreenTeaPress</a>
+        </div>
+      </section>
+      <hr />
+      <section id="Introduction_to_Programming" class="main-section">
+        <header><h2>Introduction to Programming</h2></header>
+        <!-- COPY IMAGE ADDRESS {not link address} -->
+        <img src="https://www.pearsonhighered.com/assets/bigcovers/0/1/3/3/0133761312.jpg" />
+        <p>Introduction to Java is the next level up from GreenTeaPress's Intro book. In this one you go much more in-depth about everything working. It could be seen as an Intro book to everything involved in Computer Science. One should really take their time reading this book as everything in this book will be seen later down the road. Obtaining a strong understanding of the fundamentals early will seperate you from others also learning CS!</p>
+      </section>
+      <hr />
+      <section id="Data_Structures_&_Algorithms" class="main-section">
+        <header><h2>Data Structures & Algorithms</h2></header>
+        <p>Just Good Luck</p>
+        <pre>
+        <code>
+          public static int linearSearch(int[] array, int searched) {
+            for (int i = 0; i < array.length; i++) {
+              if (array[i] == searched) {
+                return i;
+              }
+            }
+            return -1;
+        }
+        </code>
+        </pre>
+        <pre>
+        <code>
+          // Java code for Linked List implementation 
+
+          import java.util.*; 
+
+  public class Test { 
+	public static void main(String args[]) 
+	{ 
+		// Creating object of class linked list 
+		LinkedList<String> object 
+			= new LinkedList<String>(); 
+
+		// Adding elements to the linked list 
+		object.add("A"); 
+		object.add("B"); 
+		object.addLast("C"); 
+		object.addFirst("D"); 
+		object.add(2, "E"); 
+		object.add("F"); 
+		object.add("G"); 
+		System.out.println("Linked list : "
+						+ object); 
+
+		// Removing elements from the linked list 
+		object.remove("B"); 
+		object.remove(3); 
+		object.removeFirst(); 
+		object.removeLast(); 
+		System.out.println( 
+			"Linked list after deletion: "
+			+ object); 
+
+		// Finding elements in the linked list 
+		boolean status = object.contains("E"); 
+
+		if (status) 
+			System.out.println( 
+				"List contains the element 'E' "); 
+		else
+			System.out.println( 
+				"List doesn't contain the element 'E'"); 
+
+		// Number of elements in the linked list 
+		int size = object.size(); 
+		System.out.println( 
+			"Size of linked list = " + size); 
+
+		// Get and set elements from linked list 
+		Object element = object.get(2); 
+		System.out.println( 
+			"Element returned by get() : "
+			+ element); 
+		object.set(2, "Y"); 
+		System.out.println( 
+			"Linked list after change : "
+			+ object); 
+	} 
+ } 
+        </code>
+        </pre>
+        <pre>
+        <code>
+          String x = "Hello World";
+        </code>
+        </pre>
+        <pre>
+        <code>
+          String world = "No";
+        </code>
+        </pre>
+        <p>You might need these...</p>
+        <a href="https://visualgo.net/en">Visualgo</a>
+        <a href="https://zhao-zihan.github.io/sorting-algorithm-visualizer/">Time Complexity Visual</a>
+      </section>
+      <hr />
+      <section id="FreeCodeCamp" class="main-section">
+        <header><h2>FreeCodeCamp</h2></header>
+        <p>If you find that none of the above are really for you then that's perfectly ok because that means this resource was made for you. With FreeCodeCamp it's impossible to not learn something! The vocab is simple, light is extremely light, along with lots of, LOTS OF hands on practice.</p>
+        <p>If your're here because you've finsihed all the above... fantastic because the hard part is over. This website will give you the hands on learning to piece everything together! After obtaining all the certifactes here, I guarntee you'll walk away with the confidence that there isn't anything you can't build!</p>
+        <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+      </section>
+      <hr />
+      <section id="Choose_either_OS/Architecture/EmbeddedSystems" class="main-section">
+        <header><h2>Choose either OS/Architecture/EmbeddedSystems</h2></header>
+        <p>I haven't even gotten here myself.</p>
+        <p>But these topics just feel right.</p>
+      </section>
+      <hr />
+      <section id="Notes" class="main-section">
+        <header><h2>Notes</h2></header>
+        <p>The heck if I know...</p>
+        <ul>
+          <li>Never</li>
+          <li>Quit</li>
+          <li>and</li>
+          <li>Never</li>
+          <li>Surrender</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
