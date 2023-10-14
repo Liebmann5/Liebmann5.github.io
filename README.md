@@ -1,3 +1,6 @@
-# Liebmann5.github.io
-My personal website...  hopefully
-The website offers people CS resources to help them better understand material
+Main.js has Title
+Index.js has <Main description="Blah Blah Blah">
+ and the 2nd Title and 2nd description
+ ...
+
+ AS WELL AS the webpages contents!!!!
