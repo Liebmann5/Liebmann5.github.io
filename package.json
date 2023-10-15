@@ -5,7 +5,7 @@
   "license": "of-couse-here-officer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Liebmann5/Liebmann5.github.io.git"
+    "url": "https://github.com/Liebmann5/Liebmann5.github.io"
   },
   "scripts": {
     "start": "react-scripts start",
