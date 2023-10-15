@@ -69,3 +69,15 @@ Recognizing React and JSX
 7. src/components/Resume/Skills/SkillBar.js
 8. src/data/resume/skills.js
 9. src/data/routes.js
+
+
+
+
+
+RANDOM NOTE: This was originally in my README.md before I replaced it.
+Main.js has Title
+Index.js has <Main description="Blah Blah Blah">
+ and the 2nd Title and 2nd description
+ ...
+
+ AS WELL AS the webpages contents!!!! 

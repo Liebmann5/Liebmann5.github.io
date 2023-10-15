@@ -1,6 +1,5 @@
-Main.js has Title
-Index.js has <Main description="Blah Blah Blah">
- and the 2nd Title and 2nd description
- ...
+# Personal Website
 
- AS WELL AS the webpages contents!!!!
+Hi, so this is my website! She ain't much but she's mine!
+
+- Also... I sell Computer Parts, just wanna put that out there now.
