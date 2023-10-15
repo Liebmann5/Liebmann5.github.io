@@ -1,11 +1,11 @@
 {
-  "name": "a-website-fit-for-a-king",
+  "name": "personal-website",
   "version": "1.0.0",
   "hompage": "https://nicholasliebmann.com/",
-  "license": "of-couse-here-officer",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Liebmann5/Liebmann5.github.io"
+    "url": "https://github.com/Liebmann5/Liebmann5.github.io.git"
   },
   "scripts": {
     "start": "react-scripts start",
