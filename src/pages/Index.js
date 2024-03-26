@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 import GithubInfo from '../components/GithubInfo';
 import cautionTapeImage from '../static/images/NicePng_caution-tape.png';  // Import the image
+import nicksSourceImage from '../static/images/parents_nicks_source.jpg';
 
 const Index = () => (
   <Main
@@ -27,7 +28,7 @@ const Index = () => (
           view <Link to="/stats">site statistics</Link>, {' '}
   or <Link to="/contact">contact</Link> me.*/}
         </p>
-        <p> Source available <img src="../images/parents_nicks_source.jpg" alt="Nick's Life Source (aka. Picture of my parents)">here</img>.</p>
+        <p> Source available <img src={nicksSourceImage} alt="Nick's Life Source (aka. Picture of my parents)">here</img>.</p>
         <div className="construction">
           <img src={cautionTapeImage} alt="First banner" className="first-banner" />
           {/* <img src="path/to/your/second-banner-image.jpg" alt="Second banner" className="second-banner" />
