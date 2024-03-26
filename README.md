@@ -1,5 +1,4 @@
 # Personal Website
 
-Hi, so this is my [website](https://nicholasliebmann.com)! She ain't much but she's mine!
+Hi, so this is my [website](https://nicholasliebmann.com)! It ain't much but it's mine!
 
-- Also...  I sell Computer Parts, just wanna put that out there now.

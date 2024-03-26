@@ -25,8 +25,8 @@ const routes = [
         path: '/papers',
     },
     {
-        name: 'Nicks Private Parts',
-        path: '/privateparts',
+        name: 'Project Resources',
+        path: '/resources',
     },
 ];
 

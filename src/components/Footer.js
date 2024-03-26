@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="container footer-whole">
       <div className="content footer-visible">
         <p>
-          Nick The Chick © 2023. All rights reserved.
+          Liebmann5 © 2024. All rights reserved.
         </p>
       </div>
     </div>
