@@ -28,7 +28,7 @@ const Index = () => (
           view <Link to="/stats">site statistics</Link>, {' '}
   or <Link to="/contact">contact</Link> me.*/}
         </p>
-        <p> Source available <img src={nicksSourceImage} alt="Nick's Life Source (aka. Picture of my parents)">here</img>.</p>
+        <p> Source available <a href={nicksSourceImage} target="_blank" rel="noopener noreferrer">here<img src={nicksSourceImage} alt="Nick's Life Source (aka. Picture of my parents)" /></a>.</p>
         <div className="construction">
           <img src={cautionTapeImage} alt="First banner" className="first-banner" />
           {/* <img src="path/to/your/second-banner-image.jpg" alt="Second banner" className="second-banner" />
